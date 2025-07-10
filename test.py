@@ -1,5 +1,6 @@
+
 import pandas as pd
+df = pd.read_csv("test.csv")
+df.Age.value_counts(normalize=True) # age is a col in your data
 
-df = pd.read_csv("Walmart_Sales.csv")
-
-print(df.head(10))
+print('hello')
